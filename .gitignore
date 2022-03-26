@@ -1,0 +1,8 @@
+# archlinxu package
+/pkg
+*.pkg.tar.zst
+
+# compressed file
+*.zip
+*.tar.gz
+*.7z
