@@ -10,4 +10,5 @@ package() {
     cd ${startdir}
     install -dm 755 "${pkgdir}/usr/share/fonts/TTF"
     install -m 644 130-ss-Zhui-Guang-Shou-Xie-Ti.ttf "${pkgdir}/usr/share/fonts/TTF/130-ss-Zhui-Guang-Shou-Xie-Ti.ttf"
+    install -m 644 JBHGXK.ttf "${pkgdir}/usr/share/fonts/TTF/JBHGXK.ttf"
 }
