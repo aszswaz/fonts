@@ -1,5 +1,5 @@
 pkgname=aszswaz-fonts
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc='从网上收集的字体'
 arch=('x86_64')
@@ -11,4 +11,7 @@ package() {
     install -dm 755 "${pkgdir}/usr/share/fonts/TTF"
     install -m 644 130-ss-Zhui-Guang-Shou-Xie-Ti.ttf "${pkgdir}/usr/share/fonts/TTF/130-ss-Zhui-Guang-Shou-Xie-Ti.ttf"
     install -m 644 JBHGXK.ttf "${pkgdir}/usr/share/fonts/TTF/JBHGXK.ttf"
+    install -m 644 MSYH.TTC "${pkgdir}/usr/share/fonts/TTF/MSYH.TTC"
+    install -m 644 MSYHBD.TTC "${pkgdir}/usr/share/fonts/TTF/MSYHBD.TTC"
+    install -m 644 MSYHL.TTC "${pkgdir}/usr/share/fonts/TTF/MSYHL.TTC"
 }
