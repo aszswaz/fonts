@@ -1,5 +1,5 @@
 pkgname=aszswaz-fonts
-pkgver=1.0.1
+pkgver=1.0.2
 pkgrel=1
 pkgdesc='从网上收集的字体'
 arch=('x86_64')
@@ -16,6 +16,10 @@ package() {
     done
 
     for font_file in *.TTC; do
+        install -m 644 "$font_file" "${pkgdir}/usr/share/fonts/TTF/${font_file}"
+    done
+
+    for font_file in *.ttc; do
         install -m 644 "$font_file" "${pkgdir}/usr/share/fonts/TTF/${font_file}"
     done
 }
