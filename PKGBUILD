@@ -1,5 +1,5 @@
 pkgname=aszswaz-fonts
-pkgver=1.0.2
+pkgver=1.0.3
 pkgrel=1
 pkgdesc='从网上收集的字体'
 arch=('x86_64')
