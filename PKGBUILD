@@ -1,10 +1,13 @@
+# Maintainer: aszswaz <aszswaz@163.com>
+
 pkgname=aszswaz-fonts
-pkgver=1.0.3
+pkgver=1.0.4
 pkgrel=1
 pkgdesc='从网上收集的字体'
 arch=('x86_64')
 url=https://github.com/aszswaz/fonts
-depends=('adobe-source-han-sans-cn-fonts')
+depends=('adobe-source-han-sans-cn-fonts' 'ttf-jetbrains-mono-nerd')
+groups=('aszswaz')
 
 package() {
     ORIGINAL_IFS="$IFS"
